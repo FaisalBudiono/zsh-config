@@ -19,6 +19,7 @@ alias wslrefresh="sudo sh -c \"echo 3 >'/proc/sys/vm/drop_caches' && swapoff -a 
 alias cchown="sudo chown -R ucul:ucul"
 alias cgg="git log --oneline --pretty=oneline --graph"
 alias cggv="git log --pretty=full --graph"
+alias cggvv="git log --pretty=fuller --graph"
 alias cgca="git commit --amend"
 alias cgri="git rebase -i"
 

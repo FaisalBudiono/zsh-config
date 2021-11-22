@@ -22,6 +22,7 @@ alias cggv="git log --pretty=full --graph"
 alias cggvv="git log --pretty=fuller --graph"
 alias cgca="git commit --amend"
 alias cgri="git rebase -i"
+alias cl="clear"
 
 
 # ZSH Plugin

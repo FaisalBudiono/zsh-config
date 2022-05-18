@@ -17,6 +17,7 @@ source $ZSH/oh-my-zsh.sh
 alias wslrefresh="sudo sh -c \"echo 3 >'/proc/sys/vm/drop_caches' && swapoff -a && swapon -a && printf '\n%s\n' 'Ram-cache and Swap Cleared'\""
 
 alias cchown="sudo chown -R ucul:ucul"
+alias cgd="git branch -d"
 alias cgg="git log --oneline --pretty=oneline --graph"
 alias cggv="git log --pretty=full --graph"
 alias cggvv="git log --pretty=fuller --graph"

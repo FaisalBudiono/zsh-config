@@ -1,0 +1,3 @@
+function ccopy {
+  $@ | clip.exe
+}

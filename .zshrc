@@ -19,5 +19,6 @@ source $ZSH_CONFIG_PATH/modules/antigen-setup.zsh
 source $ZSH_CONFIG_PATH/modules/zsh-vi.zsh
 source $ZSH_CONFIG_PATH/modules/vim-config.zsh
 source $ZSH_CONFIG_PATH/modules/windows-terminal-fix.zsh
+source $ZSH_CONFIG_PATH/modules/wsl-alias.zsh
 
 [[ -s "/home/ucul/.gvm/scripts/gvm" ]] && source "/home/ucul/.gvm/scripts/gvm"

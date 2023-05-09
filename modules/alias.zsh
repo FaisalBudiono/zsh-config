@@ -5,12 +5,12 @@ alias wslrefresh="sudo sh -c \"echo 3 >'/proc/sys/vm/drop_caches' && swapoff -a 
 
 alias cchown="sudo chown -R ucul:ucul"
 alias cde="docker exec -ti"
+alias cgca="git commit --amend"
 alias cgd="git branch -d"
 alias cgD="git branch -D"
 alias cgg="git log --oneline --pretty=oneline --graph"
 alias cggv="git log --pretty=full --graph"
 alias cggvv="git log --pretty=fuller --graph"
-alias cgca="git commit --amend"
 alias cgpru="cgprune"
 alias cgprune="git remote prune origin"
 alias cgri="git rebase -i"

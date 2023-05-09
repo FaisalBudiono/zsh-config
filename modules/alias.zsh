@@ -5,6 +5,7 @@ alias wslrefresh="sudo sh -c \"echo 3 >'/proc/sys/vm/drop_caches' && swapoff -a 
 
 alias cchown="sudo chown -R ucul:ucul"
 alias cde="docker exec -ti"
+alias cgbn="git branch --show-current"
 alias cgca="git commit --amend"
 alias cgd="git branch -d"
 alias cgD="git branch -D"

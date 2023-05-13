@@ -1,7 +1,7 @@
 REAL_ZSHRC_PATH=$(ls -l $HOME/.zshrc | awk '{print $11}')
 ZSH_CONFIG_PATH=${REAL_ZSHRC_PATH%/*}
 
-export ZSH="/home/ucul/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
@@ -20,5 +20,3 @@ source $ZSH_CONFIG_PATH/modules/zsh-vi.zsh
 source $ZSH_CONFIG_PATH/modules/vim-config.zsh
 source $ZSH_CONFIG_PATH/modules/windows-terminal-fix.zsh
 source $ZSH_CONFIG_PATH/modules/wsl-alias.zsh
-
-[[ -s "/home/ucul/.gvm/scripts/gvm" ]] && source "/home/ucul/.gvm/scripts/gvm"

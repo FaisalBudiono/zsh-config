@@ -11,6 +11,8 @@ plugins=(
   git
 )
 
+SPACESHIP_PROMPT_ASYNC=false
+
 source $ZSH/oh-my-zsh.sh
 
 source $ZSH_CONFIG_PATH/modules/alias.zsh

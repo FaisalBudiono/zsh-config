@@ -1,4 +1,5 @@
 alias -g cchown="sudo chown -R ucul:ucul"
+alias -g cddb="docker build -t kambing ."
 alias -g cde="docker exec -ti"
 alias -g cgbn="git branch --show-current"
 alias -g cgca="git commit --amend"
@@ -14,3 +15,8 @@ alias -g cgprune="git remote prune origin"
 alias -g cgri="git rebase --rebase-merges -i"
 alias -g cgrm="git rebase --rebase-merges"
 alias -g cl="clear"
+
+function cddr {
+    docker rm -f kuda
+    docker run -d --name kuda -p $1 kambing $2
+}

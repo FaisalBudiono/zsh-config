@@ -1,4 +1,7 @@
 alias -g cchown="sudo chown -R ucul:ucul"
+alias -g cdcd="docker compose down --remove-orphans"
+alias -g cdcu="docker compose up -d"
+alias -g cdcub="docker compose up -d --build"
 alias -g cddb="docker build -t kambing ."
 alias -g cde="docker exec -ti"
 alias -g cgbn="git branch --show-current"

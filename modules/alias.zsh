@@ -18,5 +18,14 @@ alias -g cl="clear"
 
 function cddr {
     docker rm -f kuda
-    docker run -d --name kuda -p $1 kambing $2
+    docker run -ti --name kuda kambing $@
+}
+
+function cddrp {
+    FIRST_PARAM=$1
+    shift
+    REST_PARAM=$@
+
+    docker rm -f kuda
+    docker run -d --name kuda -p $FIRST_PARAM kambing $REST_PARAM
 }

@@ -17,6 +17,7 @@ alias -g cgpru="cgprune"
 alias -g cgprune="git remote prune origin"
 alias -g cgri="git rebase --rebase-merges -i"
 alias -g cgrm="git rebase --rebase-merges"
+alias -g cgst="git switch -t"
 alias -g cl="clear"
 
 function cddr {

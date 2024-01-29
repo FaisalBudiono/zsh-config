@@ -9,7 +9,9 @@ plugins=(
   git
 )
 
-SPACESHIP_PROMPT_ASYNC=false
+SPACESHIP_PROMPT_ASYNC=true
+
+SPACESHIP_ASYNC_SLEEP_DURATION=0.3
 
 source $ZSH/oh-my-zsh.sh
 

@@ -1,3 +1,4 @@
+alias -g ccd="source $ZSH_CONFIG_PATH/cd-fzf.sh"
 alias -g cchown="sudo chown -R ucul:ucul"
 alias -g cdcd="docker compose down --remove-orphans"
 alias -g cdcex="docker compose exec"

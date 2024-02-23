@@ -35,3 +35,7 @@ function cddrp {
     docker rm -f kuda
     docker run -d --name kuda -p $FIRST_PARAM kambing $REST_PARAM
 }
+
+function cts {
+    tmux swapw -t $1 -s $2
+}

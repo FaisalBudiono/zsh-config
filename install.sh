@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 CURRENT_DIRECTORY=$(pwd)
 
 UPDATED="no"

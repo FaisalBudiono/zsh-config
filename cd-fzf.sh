@@ -1,4 +1,4 @@
-# !/bin/bash
+#!/usr/bin/env bash
 REAL_ZSHRC_PATH=$(ls -l $HOME/.zshrc | awk '{print $11}')
 ZSH_CONFIG_PATH=${REAL_ZSHRC_PATH%/*}
 

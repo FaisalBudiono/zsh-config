@@ -1,5 +1,6 @@
 alias -g ccd="source $ZSH_CONFIG_PATH/cd-fzf.sh"
 alias -g ccda="source $ZSH_CONFIG_PATH/cd-add-fzf.sh"
+alias -g ccurl="curl -# -w \"@$ZSH_CONFIG_PATH/curl-format.txt\""
 alias -g cchown="sudo chown -R ucul:ucul"
 alias -g cdcd="docker compose down --remove-orphans"
 alias -g cdcex="docker compose exec"

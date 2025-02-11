@@ -40,15 +40,6 @@ if [ $HAS_OH_MY_ZSH != 0 ]; then
     yes Y | sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 fi
 
-THEME_DIR=$HOME/.oh-my-zsh/custom/themes
-[ -d $THEME_DIR/spaceship-prompt ]
-HAS_THEME=$?
-
-if [ $HAS_THEME != 0 ]; then
-    git clone https://github.com/spaceship-prompt/spaceship-prompt.git "$THEME_DIR/spaceship-prompt" --depth=1
-    ln -s "$THEME_DIR/spaceship-prompt/spaceship.zsh-theme" "$THEME_DIR/spaceship.zsh-theme"
-fi
-
 [ -d $HOME/.nvm ]
 HAS_NVM=$?
 

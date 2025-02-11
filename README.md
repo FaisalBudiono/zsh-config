@@ -1,7 +1,7 @@
 # ZSH Configuration
 
 > NOTE:
-> Still need to install the antigen manually
+> Still need to install the antigen and starship manually
 
 ## Installation
 

@@ -29,7 +29,7 @@ alias -g v="nvim"
 
 function cddr {
     docker rm -f kuda
-    docker run -ti --name kuda kambing $@
+    docker run -ti --name kuda $@ kambing 
 }
 
 function cddrp {

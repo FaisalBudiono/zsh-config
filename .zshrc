@@ -11,8 +11,8 @@ ZVM_CURSOR_STYLE_ENABLED=true
 
 source $ZSH/oh-my-zsh.sh
 
-source $ZSH_CONFIG_PATH/modules/alias.zsh
-source $ZSH_CONFIG_PATH/modules/antigen-setup.zsh
+source $ZSH_CONFIG_PATH/modules/00-alias.zsh
+source $ZSH_CONFIG_PATH/modules/01-antigen-setup.zsh
 source $ZSH_CONFIG_PATH/modules/gvm-config.zsh
 source $ZSH_CONFIG_PATH/modules/nvm-config.zsh
 source $ZSH_CONFIG_PATH/modules/service.zsh

@@ -3,6 +3,11 @@
 > NOTE:
 > Still need to install the antigen and starship manually
 
+## Prerequisites
+- fzf
+- tmux
+- starship
+
 ## Installation
 
 1. You need to clone this repo

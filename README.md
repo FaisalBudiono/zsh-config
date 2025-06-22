@@ -1,3 +1,6 @@
+# Deprecated
+http://github.com/FaisalBudiono/dotfiles/
+
 # ZSH Configuration
 
 > NOTE:
